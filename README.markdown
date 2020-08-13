@@ -1,9 +1,25 @@
 # The Official Pioneer Mobile Applications Swift Style Guide.
-### Updated for Swift 5
 
 This style guide is different from others you may see, because the focus is centered on readability for print and the web. We created this style guide to keep the code in our books, tutorials, and starter kits nice and consistent — even though we have many different authors working on the books.
 
 Our overarching goals are clarity, consistency and brevity, in that order.
+
+
+## Pioneer PR Guidelines
+
+In an effort to increase efficiency and reduce bugs, the following guidelines have been put in place. Please ensure all guidelines are enforced prior to sending code for review. 
+
+* Commits are squashed into ideally 1 commit 
+* Code has been rebased with its parent branch
+* Code is cleaned up, white spaces removed, and adheres to programming style guide. 
+* Newly created files are in correct folders (ex. ViewControllers, Models, Extensions, etc)
+* No warnings or errors are present in the files modified
+* Code has been tested and previous features were not disturbed
+* If a UI update, test on an iPad, iPhone X, iPhone 7 or 8 Plus, and an iPhone 6,7, or 8
+* Make sure all current tests (if any) pass
+* Add tests if possible
+
+
 
 ## Table of Contents
 
